@@ -1,2 +1,3 @@
 # cis4525_pa4_Extra
-Extra credit for machine learning course
+
+Extra credit assignment for Machine Learning course
