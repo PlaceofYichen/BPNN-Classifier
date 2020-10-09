@@ -14,6 +14,7 @@ Dependency: matplotlib
 3. For the results, negative values indicate that there is no skinhole; 
    for positive values, the closer it is to 1, the larger chance there exists a skinhole.
 
+### Output
 ![Training Performance](https://github.com/PlaceofYichen/cis4526-Extra/blob/master/TrainingPerformance.png)
 
 
