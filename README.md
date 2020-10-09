@@ -2,7 +2,7 @@
 
 ## An extra credit project assignment for Temple University CIS-4525 Machine Learning course.
 
-![Project Description](https://github.com/PlaceofYichen/cis4526-Extra/blob/master/PA%204.pdf)
+![Project Description][embed]https://github.com/PlaceofYichen/cis4526-Extra/blob/master/PA%204.pdf[/embed]
 
 Dependency: matplotlib
 1. Adjust the hyperparameter of BP network : 
