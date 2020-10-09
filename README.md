@@ -1,14 +1,19 @@
-# cis4525_pa4_Extra
+# Neural Network Classifier to Identify Karst Skinholes from LiDAR Data
 
-Extra credit assignment for Machine Learning course
+## An extra credit project assignment for Temple University CIS-4525 Machine Learning course.
 
+![Project Description](https://github.com/PlaceofYichen/cis4526-Extra/blob/master/PA%204.pdf)
 
-pa4.pdf is the assignment description;
+Dependency: matplotlib
+1. Adjust the hyperparameter of BP network : 
+    10-hiden 
+    net = BPNNet(num, 10, 1); 
+    net.train(train_data,iterations=1000, N=0.01, M=0.1);
+2. Simply run 'pa4.py' and wait (for about 30 minutes);
+3. For the results, negative values indicate that there is no skinhole; 
+   for positive values, the closer it is to 1, the larger chance there exists a skinhole.
 
-pa4.txt & trainingPerformance.png are the running results;
-
-pa4.py is the code.
-
+![Training Performance](https://github.com/PlaceofYichen/cis4526-Extra/blob/master/TrainingPerformance.png)
 
 
 
