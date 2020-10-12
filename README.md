@@ -1,4 +1,4 @@
-# Neural Network Classifier to Identify Karst Skinholes from LiDAR Data
+# BP Neural Network Classifier to Identify Karst Skinholes from LiDAR Data
 
 ## An extra credit project assignment for Temple University CIS-4525 Machine Learning course.
 
