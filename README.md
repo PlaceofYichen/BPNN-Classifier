@@ -11,8 +11,9 @@ Dependency: matplotlib
     net = BPNNet(num, 10, 1); 
     net.train(train_data,iterations=1000, N=0.01, M=0.1);
 2. Simply run 'pa4.py' and wait (for about 30 minutes);
-3. For the results, negative values indicate that there is no skinhole; 
-   for positive values, the closer it is to 1, the larger chance there exists a skinhole.
+3. Results are saved in an auto-generated file "pred.csv": 
+    positive values: the closer it is to 1, the larger chance there exists a skinhole;
+    negative values: there is no skinhole.
 
 ### Output
 ![Training Performance](https://github.com/PlaceofYichen/cis4526-Extra/blob/master/TrainingPerformance.png)
