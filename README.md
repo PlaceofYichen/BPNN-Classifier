@@ -1,22 +1,20 @@
 # BP Neural Network Classifier to Identify Karst Skinholes from LiDAR Data
 
-## An extra credit project assignment for Temple University CIS-4525 Machine Learning course.
+##### *An extra credit assignment for Temple University CIS4526 Machine Learning course.*
 
 ### Project descriptions
-https://github.com/PlaceofYichen/cis4526-Extra/blob/master/PA%204.pdf
+[Please see "descriptions" for details.](https://github.com/PlaceofYichen/BPNN-Classifier/tree/master/descriptions)
+![descriptions](/descriptions/pa4.png)
 
 Dependency: matplotlib
 1. Adjust the hyperparameter of BP network : 
-    10-hiden 
-    net = BPNNet(num, 10, 1); 
-    net.train(train_data,iterations=1000, N=0.01, M=0.1);
-2. Simply run 'pa4.py' and wait (for about 30 minutes);
-3. Results are saved in an auto-generated file "pred.csv": 
-    positive values: the closer it is to 1, the larger chance there exists a skinhole;
-    negative values: there is no skinhole.
+    - 10-hiden 
+    - net = BPNNet(num, 10, 1); 
+    - net.train(train_data,iterations=1000, N=0.01, M=0.1);
+2. Simply run 'pa4.py';
+3. Results are saved in an auto-generated file called "pred.csv". For values:
+    - positive : the closer it is to 1, the larger chance there exists a skinhole;
+    - negative: there is no skinhole.
 
 ### Output
 ![Training Performance](https://github.com/PlaceofYichen/cis4526-Extra/blob/master/TrainingPerformance.png)
-
-
-
