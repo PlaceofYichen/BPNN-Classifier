@@ -1,4 +1,4 @@
-First Header | Second Header
+underlines | references
 ------------ | -------------
 The document | pa4_description.pdf
 training examples | pa4_train.csv
