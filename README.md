@@ -6,7 +6,7 @@
 Please see [descriptions](https://github.com/PlaceofYichen/BPNN-Classifier/tree/master/descriptions) for details.
 ![descriptions](/descriptions/pa4.png)
 
-Dependency: matplotlib
+*Dependency: matplotlib*
 1. Adjust the hyperparameter of BP network : 
     - 10-hiden 
     - net = BPNNet(num, 10, 1); 
