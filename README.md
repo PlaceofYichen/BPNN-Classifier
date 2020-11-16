@@ -1,4 +1,4 @@
-# BP Neural Network Classifier to Identify Karst Skinholes from LiDAR Data
+# BP Neural Network Classifier to Identify Karst Sinkholes from LiDAR Data
 
 ##### *An extra credit assignment for Temple University CIS4526 Machine Learning course.*
 
@@ -13,7 +13,7 @@ Please see [descriptions](https://github.com/PlaceofYichen/BPNN-Classifier/tree/
     - net.train(train_data, iterations=1000, N=0.01, M=0.1);
 2. Simply run 'pa4.py';
 3. Results are saved in an auto-generated file called "pred.csv". For values:
-    - positive : the closer it is to 1, the larger chance there exists a skinhole;
+    - positive : the closer it is to 1, the larger chance there exists a sinkhole;
     - negative: there is no skinhole.
 
 ## Training Performance
